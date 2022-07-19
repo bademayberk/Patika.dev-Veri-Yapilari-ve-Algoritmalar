@@ -16,6 +16,7 @@
 3. 2 sayısı, sol tarafta kalan sayılarla karşılaştırılır. 2 karşılaştırıldığı sayıların hepsinden küçük olduğu için en sola yerleştirilir.
 4. 18 sayısı karşılaştırılır, 16'nın sağına yerleştirilir.
 5. En son 6 karşılaştırılır, 2'nin sağona yerleştirilir.
+
 Dizinin her aşama sonrası dizilimi aşağıda gösterilmiştir.
 ```
 1- [22, 27, 16, 2, 18, 6]
