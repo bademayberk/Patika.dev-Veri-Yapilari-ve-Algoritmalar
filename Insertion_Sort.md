@@ -7,7 +7,7 @@
 
 ***3. Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.***
 
-##### ***4. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.***
+***4. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.***
 
 
 *1.* Dizinin dizilim aşamaları:
