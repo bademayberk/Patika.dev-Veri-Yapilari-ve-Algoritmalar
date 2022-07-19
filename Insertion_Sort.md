@@ -1,25 +1,16 @@
 ## Soru 1:
 ***[22,27,16,2,18,6] -> Insertion Sort***
+***1. Yukarıda verilen dizinin sort türüne göre aşamalarını yazınız.***
+***2. Big-O gösterimini yazınız.***
+***3. Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.***
+***4. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.***
 
-***1- Yukarıda verilen dizinin sort türüne göre aşamalarını yazınız.***
-
-***2- Big-O gösterimini yazınız.***
-
-***3- Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.***
-
-***4- Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.***
-
-
-1. 1- İlk önce 22 ve 27 sayıları karşılaştırılır. 22, 27'den küçük olduğu için dizinin diziliminde herhangi bir değişiklik olmaz.
-
-2- 27 ile 16 sayıları karşılaştırılır. 16 sayısı sola götürülür. Ardından en sola yerleştirilir.
-
-3- 2 sayısı, sol tarafta kalan sayılarla karşılaştırılır. 2 karşılaştırıldığı sayıların hepsinden küçük olduğu için en sola yerleştirilir.
-
-4- 18 sayısı karşılaştırılır, 16'nın sağına yerleştirilir.
-
-5- En son 6 karşılaştırılır, 2'nin sağona yerleştirilir.
-
+*1.* Dizinin dizilim aşamaları:
+1. İlk önce 22 ve 27 sayıları karşılaştırılır. 22, 27'den küçük olduğu için dizinin diziliminde herhangi bir değişiklik olmaz.
+2. 27 ile 16 sayıları karşılaştırılır. 16 sayısı sola götürülür. Ardından en sola yerleştirilir.
+3. 2 sayısı, sol tarafta kalan sayılarla karşılaştırılır. 2 karşılaştırıldığı sayıların hepsinden küçük olduğu için en sola yerleştirilir.
+4. 18 sayısı karşılaştırılır, 16'nın sağına yerleştirilir.
+5. En son 6 karşılaştırılır, 2'nin sağona yerleştirilir.
 Dizinin her aşama sonrası dizilimi aşağıda gösterilmiştir.
 ```
 1- [22, 27, 16, 2, 18, 6]
