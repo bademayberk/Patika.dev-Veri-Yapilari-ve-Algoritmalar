@@ -48,17 +48,23 @@ Best Case (En İyi Senaryo) = O(n)
 
 ## Soru 1:
 ***[22,27,16,2,18,6]***
+
 ***1- Yukarıda verilen dizinin sort türüne göre aşamalarını yazınız.***
+
 ***2- Big-O gösterimini yazınız.***
+
 ***3- Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.***
+
 ***4- Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.***
 
 
-1. 1- İlk önce en küçük sayı belirlenir. 2 sayısı en küçük sayı olduğu için 22 sayısı ile yer değiştirir.
-2- İkinci en küçük sayı incelenir. 6 sayısı ile 27 sayısı yer değiştirir.
-3- Üçüncü en küçük sayı 16 sayısı olduğu için dizinin diziliminde herhangi bir değişiklik olmaz.
-4- En küçük dördüncü sayı olan 18 sayısı ile 22 sayısı yer değiştirir.
-5- 22 ile 27 sayılarının konumu doğru olduğu için dizide herhangi bir değişiklik olmaz.
+*1.* Dizinin diziliminin aşamaları:
+1. İlk önce en küçük sayı belirlenir. 2 sayısı en küçük sayı olduğu için 22 sayısı ile yer değiştirir.
+2. İkinci en küçük sayı incelenir. 6 sayısı ile 27 sayısı yer değiştirir.
+3. Üçüncü en küçük sayı 16 sayısı olduğu için dizinin diziliminde herhangi bir değişiklik olmaz.
+4. En küçük dördüncü sayı olan 18 sayısı ile 22 sayısı yer değiştirir.
+5. 22 ile 27 sayılarının konumu doğru olduğu için dizide herhangi bir değişiklik olmaz.
+
 Dizinin her aşama sonrası dizilimi aşağıda gösterilmiştir.
 ```
 1- [2, 27, 16, 22, 18, 6]
